@@ -1,0 +1,188 @@
+/* Mobile Style Rules */
+
+/* 0: Small Screens */
+@media screen and (max-width: 1199px){
+	#grey-quote {
+    padding-top: 120px;
+	}
+	#grey-quote p.grey-subhead {
+		font-size: 30px; 
+	}
+
+	#legal:before {
+		width: 90%;
+		margin: 200px auto 20px auto;
+	}
+
+	#legal p {
+		width: 80%;
+		font-size: 14px;
+	}
+}
+/* 1: iPad Rules */
+@media screen and (max-width: 769px){
+
+	/* Header Settings */
+	#main-title h1 { 
+		margin-top: 80px;
+		font-size: 50px;
+	}
+
+	a.menu-title {
+		font-size: 36px;
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+	/* Overlay Settings */
+	.overlay-menu {
+    top: 40%; 
+	}
+
+	.overlay-menu a {
+    padding: 0 0 0 5%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 90px;
+	}
+
+	div.header-logo {
+		width: 90px;
+		height: 90px;
+		border-radius: 45px 45px 45px 45px;
+		-moz-border-radius: 45px 45px 45px 45px;
+		-webkit-border-radius: 45px 45px 45px 45px;
+		border: 0px solid #000000;	
+	}
+
+	/* Page Settings */
+	#main-title p.main-subhead,
+	p.grey-subhead {
+		font-size: 30px; 
+	}
+
+	div#grey-small {
+    padding-top: 90px;
+	}
+
+	div#grey-quote {
+		padding-top: 100px;
+	}
+
+	/* Footer */
+
+	#legal:before {
+	  margin: 160px auto 20px auto;
+	}
+
+}
+
+/* 1.5: Smaller Tablets */
+
+@media screen and (max-width: 767px) {
+	p.copy,
+	p.phone {
+		text-align: center;
+	}
+
+	#legal p {
+		width: 100%;
+		font-size: 14px;
+	}
+}
+
+/* 2: Large Phones */
+@media screen and (max-width: 530px){
+
+	/* Header Settings */
+	#main-title h1 { 
+		margin-top: 80px;
+		font-size: 40px;
+	}
+
+	a.menu-title {
+		font-size: 36px;
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+	div.header-logo {
+		width: 70px;
+		height: 70px;
+		margin-left: 0;
+		border-radius: 35px 35px 35px 35px;
+		-moz-border-radius: 35px 35px 35px 35px;
+		-webkit-border-radius: 35px 35px 35px 35px;
+		border: 0px solid #000000;	
+	}
+
+	/* Overlay Settings */
+	.overlay-menu {
+    top: 50%; 
+	}
+	.overlay-menu a {
+    padding: 0 0 0 5%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 60px;
+	}
+
+	/* Page Settings */
+	#main-title p.main-subhead,
+	p.grey-subhead, 
+	#quote p{
+		font-size: 24px; 
+	}
+
+	div#grey-small {
+    padding-top: 100px;
+	}
+
+	div#grey-quote {
+		padding-top: 80px;
+	}
+
+	p.list-title {
+		margin-right: 30%;
+	}
+
+	/* Footer */
+
+	#legal:before {
+	  margin: 100px auto 20px auto;
+	}
+
+	#legal p {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	p.copy,
+	p.phone {
+		text-align: center;
+	}
+
+	footer {
+		height: 800px;	
+	}
+}
+
+/* 3: Small Phones */
+@media screen and (max-width: 400px){
+	div#grey-quote {
+		padding-top: 120px;
+	}
+
+	#grey-quote p.grey-subhead{
+		width: 90%;
+		font-size: 24px; 
+	}
+
+	div#grey-small {
+    padding-top: 80px;
+	}
+
+	p.list-title {
+		margin-right: 15%;
+	}
+}

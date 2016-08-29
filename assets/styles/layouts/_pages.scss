@@ -1,0 +1,153 @@
+h2 {
+	font-family: "Roboto";
+	font-weight: lighter;
+	font-size: 18px;
+	color: $black;
+	text-align: center;
+	width: 110px;
+	margin: 0 auto 0 auto;
+}
+
+h2:after {
+  content: "";
+  width: 82px;
+  height: 2px;
+  display: block;
+  margin: 15px auto 50px auto;
+  border-bottom: 2px solid $green;
+}
+
+div#grey-small {
+	height: 418px;
+	background-color: $grey;
+	padding-top: 110px;
+}
+
+p.grey-subhead {
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: lighter;
+	color: $black;
+	font-size: 36px;
+  width: 78%;
+  margin: 0 auto;
+}
+
+.page-header {
+  padding-bottom: 0;
+  margin: 0;
+  border-bottom: 0;
+}
+
+
+#banner-1{
+  min-height: 400px;
+  background: transparent;
+}
+
+div#cat-grid {
+	margin: 90px auto 50px auto;
+}
+
+div.category {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+div.category i {
+	font-size: 75px;
+	color: $green;
+}
+
+div.category p {
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.2em;
+}
+
+div.category h3 {
+	font-size: 18px;
+	color: $black;
+	font-weight: bold;
+}
+
+div.category h3:after {
+  content: "";
+  width: 84px;
+  height: 2px;
+  display: block;
+  margin: 40px auto 15px auto;
+  border-bottom: 2px solid $green;
+}
+
+div.category div.box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+#banner-2{
+  min-height: 360px;
+  background: transparent;
+}
+
+
+div#white-small {
+	padding: 110px 0 110px 0;
+}
+
+div#list ul {
+	list-style: none;
+	margin: 0 0 65px 0;
+	padding: 0;
+}
+
+div#list ul li p{
+	font-size: 18px;
+	margin-top: 28px;
+}
+
+div#list ul li i {
+	float: left;
+	font-size: 75px;
+	color: $green;
+	margin-right: 2%;
+}
+
+p.list-title {
+	margin-right: 43%;
+	float: left;
+	font-weight: bold;
+}
+
+p.list-city {
+	/*margin-right: 10%*/
+	float: left;
+}
+
+p.list-position {
+	float: right;
+}
+
+div#list ul li {
+	clear: both;
+	box-sizing: content-box;
+	padding: 20px 0 20px 0;
+	height: 75px;
+	border-bottom: 1px solid $faint;
+}
+
+div#list ul li:last-child{
+	border-bottom: none;
+}
+
+#grey-quote {
+	background-color: $grey;
+	height: 414px;
+	padding-top: 150px;
+}
+
+#grey-quote p.grey-subhead {
+	width: 80%;
+	margin: 0 auto;
+}

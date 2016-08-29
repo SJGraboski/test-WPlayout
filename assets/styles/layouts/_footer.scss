@@ -1,0 +1,48 @@
+footer {
+	height: 1150px;	
+	background-color: $darkGrey;
+}
+
+#legal {
+	margin-bottom: 140px;
+}
+
+#legal:before {
+  content: "";
+  width: 972px;
+  height: 2px;
+  display: block;
+  margin: 240px auto 20px auto;
+  border-bottom: 2px solid $lightGrey;
+}
+
+#legal p {
+	font-size: 17px;
+	color: $white;
+	width: 80%;
+	margin: 0 auto;
+}
+
+p.copy {
+	text-align: left;
+}
+
+p.address {
+	text-align: center;
+}
+
+p.phone {
+	text-align: right
+}
+
+#quote p {
+	text-align: center;
+	font-size: 36px;
+	font-weight: lighter;
+	color: $white;
+	margin-bottom: 120px;
+}
+
+img.computer {
+	margin: 0 auto;
+} 

@@ -1,0 +1,53 @@
+/**
+ * Menu Overlay CSS
+ **/
+
+/* The Overlay */
+.nav-overlay {
+		display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: $redTrans; 
+    overflow-x: hidden; 
+}
+
+.overlay-menu {
+    position: absolute;
+    width: 100%;
+    top: 30%; 
+}
+
+.overlay-menu a {
+    padding: 0 0 0 5%;
+    line-height: .9em;
+    text-decoration: none;
+    font-family: 'Roboto';
+    text-align: left;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 125px;
+    color: $white;
+    display: block;
+}
+
+.overlay-menu a:hover {
+    color: $redTrans;
+    background-color: $white;
+}
+
+.nav-overlay a.menu-close {
+		color: $white;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.nav-overlay a.menu-close:hover,
+.nav-overlay a.menu-close:focus {
+    text-decoration: underline;
+}
